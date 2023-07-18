@@ -70,7 +70,7 @@ WSGI_APPLICATION = 'budgetapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'budgetMe', 
+        'NAME': 'budgetme', 
         'USER': 'postgres', 
         'PASSWORD': config('PASSWORD'),
         'HOST': '127.0.0.1', 

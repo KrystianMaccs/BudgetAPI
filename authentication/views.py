@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework.generics import GenericAPIView
-from .serializers import UserSerializer, LoginSerializer
+from .serializers import UserSerializer
 from rest_framework.response import Response
 from rest_framework import status
 from django.contrib import auth
