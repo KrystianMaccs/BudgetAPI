@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import ExpenseDetailAPIView, ExpenseListAPIView
+from .views import ExpenseDetailAPIView, ExpenseListAPIView, TotalExpenseStats
 
 
 urlpatterns = [
