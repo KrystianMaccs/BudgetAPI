@@ -10,7 +10,10 @@ from rest_framework import permissions
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/auth/', include("authentication.urls"))
+    path("api/auth/", include("authentication.urls")),
+    path("api/income/", include("income.urls")),
+    path("api/goals/", include("goals.urls")),
+    path("api/stats/", include("stats.urls")),
 ]
 
 schema_view = get_schema_view(

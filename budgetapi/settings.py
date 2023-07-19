@@ -30,12 +30,13 @@ INSTALLED_APPS = [
     
     'rest_framework',
     'authentication',
-    'expense',
-    'drf_yasg',
 ]
 
 
+
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Lagos'
 
 USE_I18N = True
 
@@ -142,3 +143,12 @@ SWAGGER_SETTINGS = {
         }
     }
 }
+
+# CORS WHITELIST
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+    "http://172.20.10.5:3000"
+]
