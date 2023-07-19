@@ -132,3 +132,13 @@ REST_FRAMEWORK = {
 }
 
 JWT_SECRET_KEY = config('JWT_SECRET_KEY')
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        "Auth Token i.e. [Bearer (JWT) ]": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}
