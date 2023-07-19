@@ -11,7 +11,7 @@ schema_view = get_schema_view(
         default_version='v1',
         description="The budget me web appp official api documentation",
         terms_of_service="https://opensource.org/licenses/MIT",
-        contact=openapi.Contact(email="ndubuisisaac@gmail.com"),
+        contact=openapi.Contact(email=""),
         license=openapi.License(name="MIT License"),
     ),
     public=True,
