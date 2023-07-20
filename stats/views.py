@@ -7,9 +7,6 @@ from django.db.models import Sum
 from income.models import Income
 
 
-# Create your views here.
-
-
 class ExpenseSummaryStats(APIView):
 
     def get_amount_for_category(self, expense_list, category):
