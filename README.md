@@ -12,4 +12,3 @@
 - Authentication: JWT (JSON Web Token) for secure user login and registration
 - API Documentation: Swagger UI and Redoc for automated documentation
 - Third-Party Library: drf-yasg for enhancing API documentation
-## Setup Instructions
