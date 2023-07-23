@@ -7,9 +7,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="BudgetMe API",
+        title="BudgetAPI",
         default_version='v1',
-        description="The budget me web appp official api documentation",
+        description="The official API documentation of the BudgetAPI",
         terms_of_service="https://opensource.org/licenses/MIT",
         contact=openapi.Contact(email=""),
         license=openapi.License(name="MIT License"),
